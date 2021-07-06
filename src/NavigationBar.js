@@ -1,0 +1,25 @@
+import React from 'react';
+import './bootstrap.min.css';
+import dataPage from "./readData"
+import {Link} from "react-router-dom";
+
+class NavigationBar extends React.Component {
+    render() {
+        return (
+            <div>
+                <nav className={"navbar bg-light"}>
+                    <div>
+                        <a className="navbar-brand text-dark font-weight-bold">Customize Mapping</a>
+                    </div>
+                    <div>
+                        <Link to="/data"><button className="btn btn-info " id="getDataBtn" type="submit">Get
+                            Data
+                        </button></Link>
+                        <button className="btn btn-info " type="submit">Logout</button>
+                    </div>
+                </nav>
+            </div>
+        )
+    }
+}
+export default NavigationBar;

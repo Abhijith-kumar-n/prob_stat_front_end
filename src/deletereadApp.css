@@ -1,0 +1,11 @@
+#deleteRead{
+    width: 50%;
+    height: auto;
+}
+#userId{
+    width: auto;
+    size: 10px;
+}
+#userId:hover{
+    border: 1px solid;
+}

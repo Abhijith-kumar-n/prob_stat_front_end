@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e01e674-003f-463c-b551-9b61ec7a9beb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsoncustommapperfrontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddUpdateApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPageInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPageInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteReadApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NavigationBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NavigationBarDataPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deletereadApp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/readAllMapping.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/readData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsonProject (copy)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/mappingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/MappingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/mongodbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/MappingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../problemstatment/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../problemstatment/problemstatment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../junk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../updateMappingStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../updatemapping.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1utrFhk5HXpxpglWZnvkf7ycY0c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jsonProject (copy)" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e01e674-003f-463c-b551-9b61ec7a9beb" name="Default Changelist" comment="" />
+      <created>1625495626311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625495626311</updated>
+      <workItem from="1625495627705" duration="30472000" />
+      <workItem from="1625569087118" duration="676000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
