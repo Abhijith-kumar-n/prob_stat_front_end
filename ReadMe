@@ -1,0 +1,11 @@
+-->index.html
+|
+|-->index.js - index.css
+    |
+    |-->App.js - App2.css -bootstrap.min.css
+    |    |---> NavigationBar.js
+    |    |---> AddUpdateApp.js  -AddUpdateApp.css
+    |    |---> DeleteReadApp.js -DeleteReasApp.css
+    | readData.js -bootstrap.min.css
+        |---> NavigationBarDataPage.js -bootstrap.min.css
+        |---> DataPageInput.js  -DataPageInput.css

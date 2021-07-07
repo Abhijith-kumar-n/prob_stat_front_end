@@ -1,5 +1,5 @@
 import React from "react";
-import "./readAllMapping.css"
+import "./AddUpdateApp.css"
 class AddUpdateApp extends React.Component {
     constructor(props) {
 

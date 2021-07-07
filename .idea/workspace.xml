@@ -8,40 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsoncustommapperfrontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AddUpdateApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataPageInput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataPageInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeleteReadApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NavigationBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NavigationBarDataPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deletereadApp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readAllMapping.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject (copy)" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/mappingController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/MappingRepository.java" afterDir="false" />
@@ -55,6 +22,11 @@
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/problemstatment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUpdateApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readAllMapping.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUpdateApp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -85,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1utrFhk5HXpxpglWZnvkf7ycY0c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -109,6 +81,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -132,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625495626311</updated>
       <workItem from="1625495627705" duration="30472000" />
-      <workItem from="1625569087118" duration="676000" />
+      <workItem from="1625569087118" duration="1276000" />
+      <workItem from="1625628183743" duration="689000" />
     </task>
     <servers />
   </component>
