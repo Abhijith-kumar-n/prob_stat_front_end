@@ -18,7 +18,7 @@ class DataPageInput extends Component {
         var user=this.state.userid;
         console.log(order,user);
         let xhr = new XMLHttpRequest();
-        let url = 'http://localhost:9095/userMappings/checkMappings/';
+        let url = 'http://localhost:9095/userMappings/mapOrdersToMappings/';
 
         xhr.open("GET", url + order+"/"+user, false);
         xhr.setRequestHeader("Content-type", "application/json");

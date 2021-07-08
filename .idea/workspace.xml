@@ -13,8 +13,6 @@
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/Service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/config/mongoDBConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/model/userMappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsoncustommapperfrontend (copy).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -66,13 +64,7 @@
       <change afterPath="$PROJECT_DIR$/../../problemstatment/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/problemstatment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUpdateApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataPageInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeleteReadApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavigationBarDataPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -162,7 +154,8 @@
       <workItem from="1625718097435" duration="751000" />
       <workItem from="1625719395391" duration="3404000" />
       <workItem from="1625727818472" duration="2296000" />
-      <workItem from="1625730166051" duration="10262000" />
+      <workItem from="1625730166051" duration="10868000" />
+      <workItem from="1625757482277" duration="19000" />
     </task>
     <servers />
   </component>
