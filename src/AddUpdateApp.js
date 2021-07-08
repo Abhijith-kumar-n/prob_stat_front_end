@@ -5,40 +5,51 @@ class AddUpdateApp extends React.Component {
 
         super(props);
         this.state = {
+            userid:'',
             mapping: '',
             action: 'add'
         };
     }
 
     changeHandlerAddUpdate = event => {
-        this.setState({[event.target.name]: JSON.stringify(event.target.value)})
+        this.setState({[event.target.name]: event.target.value})
     }
     addUpdateMapping = e => {
         e.preventDefault();
-        let mapping = JSON.parse(this.state.mapping);
+        console.log(this.state.userid);
+        let mapping = this.state.mapping;
         console.log(mapping);
         let action = this.state.action;
         console.log(action);
+        let map={
+            "userId":this.state.userid,
+            "mapping":this.state.mapping
+        }
+        console.log(map);
         let xhr = new XMLHttpRequest();
         console.log(action.toString(),"\""+"add"+"\"")
         if ((action.toString()==="\""+"add"+"\"")||(action.toString()==="add")) {
             console.log("in Add!!!!!")
-            let url = 'http://localhost:9098/mapping/addMapping';
+            let url = 'http://localhost:9095/userMappings/AddMapping';
             xhr.open("POST", url, true);
             xhr.setRequestHeader("Content-type", "application/json");
-            xhr.send(mapping);
+            xhr.setRequestHeader("Access-Control-Allow-Origin","*");
+            console.log("str --> "+JSON.stringify(map));
+            xhr.send(JSON.stringify(map));
+
             if (xhr.status === 200) {
                 console.log(xhr.responseText);
                 alert(xhr.responseText);
             }
 
         }
-        else if (action ==="\""+"update"+"\"") {
+        else if ((action.toString() ==="\""+"update"+"\"")||(action.toString()==="update")) {
             console.log("In Update!!!!!!")
-            let url = 'http://localhost:9098/mapping/updateMapping';
+            let url = 'http://localhost:9095/userMappings/UpdateMapping';
             xhr.open("POST", url, true);
             xhr.setRequestHeader("Content-type", "application/json");
-            xhr.send(mapping);
+            xhr.send(JSON.stringify(map));
+            console.log("Update --> "+JSON.stringify(map));
             if (xhr.status === 200) {
                 console.log(xhr.responseText);
                 alert(xhr.responseText);
@@ -55,6 +66,8 @@ class AddUpdateApp extends React.Component {
                         <label id={"body1-title"}>ADD / UPDATE MAPPING</label>
                     </div>
                     <div className="card-body ">
+                        <label>User ID: </label>
+                        <label><input type="text" id="userId" name={"userid"} onChange={this.changeHandlerAddUpdate}/></label>
                         <textarea name="mapping" id="mapping" onChange={this.changeHandlerAddUpdate}></textarea><br/>
                         <label htmlFor="addUpdateActions">Choose to add/update:</label>
                         <select className="float-right" id="addUpdateActions" name="action"

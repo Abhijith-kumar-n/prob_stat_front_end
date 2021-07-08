@@ -8,7 +8,50 @@
       <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/Controller/userMappingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/Repository/UserMappingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/config/mongoDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/model/userMappings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsoncustommapperfrontend (copy).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/jsoncustommapperfrontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/AddUpdateApp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/AddUpdateApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/App2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/DataPageInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/DataPageInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/DeleteReadApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/NavigationBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/NavigationBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/NavigationBarDataPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/NavigationBarDataPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/deletereadApp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/readData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/setupTests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject (copy)" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/mappingController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/MappingRepository.java" afterDir="false" />
@@ -22,20 +65,27 @@
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/problemstatment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUpdateApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readAllMapping.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUpdateApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataPageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeleteReadApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavigationBarDataPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Orders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../junk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../style.css" beforeDir="false" />
@@ -51,8 +101,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -71,7 +121,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jsonProject (copy)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -81,30 +131,20 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+      <command value="start" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,7 +156,13 @@
       <updated>1625495626311</updated>
       <workItem from="1625495627705" duration="30472000" />
       <workItem from="1625569087118" duration="1276000" />
-      <workItem from="1625628183743" duration="689000" />
+      <workItem from="1625628183743" duration="1027000" />
+      <workItem from="1625629773976" duration="1008000" />
+      <workItem from="1625631321123" duration="2154000" />
+      <workItem from="1625718097435" duration="751000" />
+      <workItem from="1625719395391" duration="3404000" />
+      <workItem from="1625727818472" duration="2296000" />
+      <workItem from="1625730166051" duration="10262000" />
     </task>
     <servers />
   </component>

@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "axios": "^0.21.1",
+    "cors": "^2.8.5",
     "react-router-dom": "^5.2.0"
   }
 }

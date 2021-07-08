@@ -15,7 +15,9 @@ class NavigationBar extends React.Component {
                         <Link to="/data"><button className="btn btn-info " id="getDataBtn" type="submit">Get
                             Data
                         </button></Link>
-                        <button className="btn btn-info " type="submit">Logout</button>
+                        <button className="btn btn-info " type="submit">
+                            <a className="App-link" href="http://localhost:9095/logout" target="_self" rel="noopener noreferrer">Logout</a>
+                        </button>
                     </div>
                 </nav>
             </div>

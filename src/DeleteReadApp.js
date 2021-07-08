@@ -10,10 +10,11 @@ class DeleteReadApp extends React.Component {
         this.readAllMapping = this.readAllMapping.bind(this);
     }
     readAllMapping(){
-        let url="http://localhost:9098/mapping/getAllMappings";
+        let url="http://localhost:9095/userMappings/GetAllUserMappings";
         let xhr = new XMLHttpRequest();
         xhr.open("GET", url, false);
         xhr.setRequestHeader("Content-type", "application/json");
+        xhr.setRequestHeader("Access-Control-Allow-Origin","http://localhost:3000/")
         xhr.send(null);
         console.log(xhr.status);
         if (xhr.status===200){
@@ -35,22 +36,24 @@ class DeleteReadApp extends React.Component {
         let xhr = new XMLHttpRequest();
         if (action === "delete") {
             let xhr = new XMLHttpRequest();
-            let url = 'http://localhost:9098/mapping/deleteMapping/'+userId;
+            let url = 'http://localhost:9095/userMappings/DeleteUserMappings/'+userId;
             xhr.open("GET", url, false);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(null);
             console.log(xhr.status);
             if (xhr.status===200){
                 console.log(xhr.responseText);
+                alert("deleted"+xhr.responseText);
                 // eslint-disable-next-line no-undef
-                viewdata.innerHTML = JSON.stringify(JSON.parse(xhr.responseText), null, 4);
+                viewdata.innerHTML = " ";//JSON.stringify(JSON.parse(xhr.responseText), null, 4);
             }
         }
         else if (action === "Read") {
             let xhr = new XMLHttpRequest();
-            let url = 'http://localhost:9098/mapping/getmapping/'+userId;
+            let url = 'http://localhost:9095/userMappings/GetUserMapping/'+userId;
             xhr.open("GET", url, false);
             xhr.setRequestHeader("Content-type", "application/json");
+            xhr.setRequestHeader("Access-Control-Allow-Origin","*");
             xhr.send(null);
             console.log(xhr.status);
             if (xhr.status===200){

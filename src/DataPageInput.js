@@ -18,15 +18,21 @@ class DataPageInput extends Component {
         var user=this.state.userid;
         console.log(order,user);
         let xhr = new XMLHttpRequest();
-        let url = 'http://localhost:9098/mapping/mapuser/';
+        let url = 'http://localhost:9095/userMappings/checkMappings/';
 
         xhr.open("GET", url + order+"/"+user, false);
+        xhr.setRequestHeader("Content-type", "application/json");
         xhr.send(null);
         if (xhr.status === 200) {
             console.log(xhr.responseText);
-            alert(xhr.responseText);
             // eslint-disable-next-line no-undef
             viewdata.innerHTML = JSON.stringify(JSON.parse(xhr.responseText), null, 4);
+        }
+        else if (xhr.status === 404){
+            alert("Invalid Data Provided");
+        }
+        else if(xhr.status === 403){
+            alert("Your Unauthorized")
         }
     }
     getMasterData=event=>{
@@ -34,15 +40,20 @@ class DataPageInput extends Component {
         let order=this.state.orderid;
         console.log(order);
         let xhr = new XMLHttpRequest();
-        let url = 'http://localhost:9098/mappedData/getOrderDetails/';
+        let url = 'http://localhost:9095/mappedData/getOrderDetails/';
 
         xhr.open("GET", url+order, false);
         xhr.send(null);
         if (xhr.status===200){
             console.log(xhr.responseText);
-            alert(xhr.responseText);
             // eslint-disable-next-line no-undef
             viewdata.innerHTML =JSON.stringify(JSON.parse(xhr.responseText),null,4);
+        }
+        else if(xhr.status === 404){
+            alert("Invalid OrderID");
+        }
+        else if(xhr.status === 403){
+            alert("Your Unauthorized")
         }
     }
     render(){
