@@ -10,10 +10,11 @@ class DeleteReadApp extends React.Component {
         this.readAllMapping = this.readAllMapping.bind(this);
     }
     readAllMapping(){
-        let url="http://localhost:9098/mapping/getAllMappings";
+        let url="http://localhost:9095/mapping/getAllMappings";
         let xhr = new XMLHttpRequest();
         xhr.open("GET", url, false);
         xhr.setRequestHeader("Content-type", "application/json");
+        //xhr.setResponseHeader("Access-Control-Allow-Origin","*");
         xhr.send(null);
         console.log(xhr.status);
         if (xhr.status===200){
@@ -35,7 +36,7 @@ class DeleteReadApp extends React.Component {
         let xhr = new XMLHttpRequest();
         if (action === "delete") {
             let xhr = new XMLHttpRequest();
-            let url = 'http://localhost:9098/mapping/deleteMapping/'+userId;
+            let url = 'http://localhost:9095/mapping/deleteMapping/'+userId;
             xhr.open("GET", url, false);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(null);
@@ -48,7 +49,7 @@ class DeleteReadApp extends React.Component {
         }
         else if (action === "Read") {
             let xhr = new XMLHttpRequest();
-            let url = 'http://localhost:9098/mapping/getmapping/'+userId;
+            let url = 'http://localhost:9095/mapping/getmapping/'+userId;
             xhr.open("GET", url, false);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(null);

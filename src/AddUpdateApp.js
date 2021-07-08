@@ -23,7 +23,7 @@ class AddUpdateApp extends React.Component {
         console.log(action.toString(),"\""+"add"+"\"")
         if ((action.toString()==="\""+"add"+"\"")||(action.toString()==="add")) {
             console.log("in Add!!!!!")
-            let url = 'http://localhost:9098/mapping/addMapping';
+            let url = 'http://localhost:9095/mapping/addMapping';
             xhr.open("POST", url, true);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(mapping);
@@ -35,7 +35,7 @@ class AddUpdateApp extends React.Component {
         }
         else if (action ==="\""+"update"+"\"") {
             console.log("In Update!!!!!!")
-            let url = 'http://localhost:9098/mapping/updateMapping';
+            let url = 'http://localhost:9095/mapping/updateMapping';
             xhr.open("POST", url, true);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(mapping);

@@ -6,6 +6,14 @@ import NavigationBar from "./NavigationBar";
 import DeleteReadApp from "./DeleteReadApp";
 
 function App(){
+    const config = {
+        headers: {
+            'Authorization': `Bearer ${localStorage.getItem('token')}`,
+            "Access-Control-Allow-Origin" : "*",
+            "Allow": "GET",
+            "Content-type": "Application/json",
+        }
+    };
     return (
         <div >
             <NavigationBar />

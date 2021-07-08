@@ -8,7 +8,8 @@
       <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NavigationBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NavigationBarDataPage.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject (copy)" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/mappingController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/MappingRepository.java" afterDir="false" />
@@ -22,11 +23,15 @@
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/problemstatment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUpdateApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readAllMapping.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUpdateApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataPageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeleteReadApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavigationBarDataPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/readData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -36,6 +41,7 @@
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../junk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../style.css" beforeDir="false" />
@@ -71,7 +77,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jsonProject (copy)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsoncustommapperfrontend (copy)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -81,13 +87,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,7 +124,10 @@
       <updated>1625495626311</updated>
       <workItem from="1625495627705" duration="30472000" />
       <workItem from="1625569087118" duration="1276000" />
-      <workItem from="1625628183743" duration="689000" />
+      <workItem from="1625628183743" duration="1027000" />
+      <workItem from="1625629746956" duration="26000" />
+      <workItem from="1625717558080" duration="538000" />
+      <workItem from="1625719329542" duration="2821000" />
     </task>
     <servers />
   </component>

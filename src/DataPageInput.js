@@ -18,7 +18,7 @@ class DataPageInput extends Component {
         var user=this.state.userid;
         console.log(order,user);
         let xhr = new XMLHttpRequest();
-        let url = 'http://localhost:9098/mapping/mapuser/';
+        let url = 'http://localhost:9095/mapping/mapuser/';
 
         xhr.open("GET", url + order+"/"+user, false);
         xhr.send(null);
@@ -34,7 +34,7 @@ class DataPageInput extends Component {
         let order=this.state.orderid;
         console.log(order);
         let xhr = new XMLHttpRequest();
-        let url = 'http://localhost:9098/mappedData/getOrderDetails/';
+        let url = 'http://localhost:9095/mappedData/getOrderDetails/';
 
         xhr.open("GET", url+order, false);
         xhr.send(null);
