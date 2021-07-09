@@ -1,6 +1,6 @@
 import React from 'react';
-import './bootstrap.min.css';
-import dataPage from "./readData"
+import '../css/bootstrap.min.css';
+import '../css/navigationBar.css';
 import {Link} from "react-router-dom";
 
 class NavigationBar extends React.Component {
@@ -16,7 +16,7 @@ class NavigationBar extends React.Component {
                             Data
                         </button></Link>
                         <button className="btn btn-info " type="submit">
-                            <a className="App-link" href="http://localhost:9095/logout" target="_self" rel="noopener noreferrer">Logout</a>
+                            <a className="App-link" href="http://localhost:9095/logout" id={"logout"} target="_self" rel="noopener noreferrer">Logout</a>
                         </button>
                     </div>
                 </nav>

@@ -2,7 +2,7 @@
 |
 |-->index.js - index.css
     |
-    |-->App.js - App2.css -bootstrap.min.css
+    |-->Mappings.js - App2.css -bootstrap.min.css
     |    |---> NavigationBar.js
     |    |---> AddUpdateApp.js  -AddUpdateApp.css
     |    |---> DeleteReadApp.js -DeleteReasApp.css

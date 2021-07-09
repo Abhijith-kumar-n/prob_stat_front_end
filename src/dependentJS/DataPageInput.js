@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "./DataPageInput.css"
+import "../css/DataPageInput.css"
 
 class DataPageInput extends Component {
     constructor(props){

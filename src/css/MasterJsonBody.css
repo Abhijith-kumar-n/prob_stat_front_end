@@ -1,0 +1,17 @@
+#MappingInput{
+    margin-right: 50px;
+    width: 90%;
+    height: 400px;
+}
+h2{
+    font-family:"Source Code Pro";
+    font-weight:bold;
+    float: left;
+    margin-left: 85px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#postBtn{
+    background-color: #111f2f;
+    margin-right: 50px;
+}

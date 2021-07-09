@@ -13,6 +13,11 @@
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/Service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/config/mongoDBConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/model/userMappings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddToMasterJson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/MasterJsonBody.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/navigationBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dependentJS/MasterJsonBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dependentJS/NavigationBarDataPage.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -64,7 +69,28 @@
       <change afterPath="$PROJECT_DIR$/../../problemstatment/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/problemstatment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataPageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddUpdateApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/AddUpdateApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependentJS/AddUpdateApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mappings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/inBuilt/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataPageInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/DataPageInput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependentJS/DataPageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependentJS/DeleteReadApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependentJS/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavigationBarDataPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deletereadApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/deletereadApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/readData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/inBuilt/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/inBuilt/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -93,8 +119,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -122,7 +148,26 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/inBuilt" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/dependentJS" />
+      <recent name="$PROJECT_DIR$/src/css" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -155,7 +200,8 @@
       <workItem from="1625719395391" duration="3404000" />
       <workItem from="1625727818472" duration="2296000" />
       <workItem from="1625730166051" duration="10868000" />
-      <workItem from="1625757482277" duration="19000" />
+      <workItem from="1625757482277" duration="285000" />
+      <workItem from="1625805369077" duration="5378000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./deletereadApp.css"
+import "../css/deletereadApp.css"
 class DeleteReadApp extends React.Component {
     constructor(props) {
         super(props);

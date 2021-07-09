@@ -1,5 +1,5 @@
 import React from "react";
-import "./AddUpdateApp.css"
+import "../css/AddUpdateApp.css"
 class AddUpdateApp extends React.Component {
     constructor(props) {
 
@@ -31,7 +31,7 @@ class AddUpdateApp extends React.Component {
         if ((action.toString()==="\""+"add"+"\"")||(action.toString()==="add")) {
             console.log("in Add!!!!!")
             let url = 'http://localhost:9095/userMappings/AddMapping';
-            xhr.open("POST", url, true);
+            xhr.open("POST", url, false);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.setRequestHeader("Access-Control-Allow-Origin","*");
             console.log("str --> "+JSON.stringify(map));
@@ -46,7 +46,7 @@ class AddUpdateApp extends React.Component {
         else if ((action.toString() ==="\""+"update"+"\"")||(action.toString()==="update")) {
             console.log("In Update!!!!!!")
             let url = 'http://localhost:9095/userMappings/UpdateMapping';
-            xhr.open("POST", url, true);
+            xhr.open("POST", url, false);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.send(JSON.stringify(map));
             console.log("Update --> "+JSON.stringify(map));
