@@ -5,7 +5,7 @@ class DataPageInput extends Component {
     constructor(props){
         super(props);
         this.state={
-            orderid:0,
+            masterid:0,
             userid:0
         }
     }
@@ -14,13 +14,13 @@ class DataPageInput extends Component {
     }
     getMappedData=event =>{
         event.preventDefault();
-        let order=this.state.orderid;
+        let master=this.state.masterid;
         var user=this.state.userid;
-        console.log(order,user);
+        console.log(master,user);
         let xhr = new XMLHttpRequest();
         let url = 'http://localhost:9095/userMappings/mapOrdersToMappings/';
 
-        xhr.open("GET", url + order+"/"+user, false);
+        xhr.open("GET", url + master+"/"+user, false);
         xhr.setRequestHeader("Content-type", "application/json");
         xhr.send(null);
         if (xhr.status === 200) {
@@ -37,12 +37,12 @@ class DataPageInput extends Component {
     }
     getMasterData=event=>{
         event.preventDefault();
-        let order=this.state.orderid;
-        console.log(order);
+        let master=this.state.masterid;
+        console.log(master);
         let xhr = new XMLHttpRequest();
-        let url = 'http://localhost:9095/mappedData/getOrderDetails/';
+        let url = 'http://localhost:9095/Master/FindMaster/';
 
-        xhr.open("GET", url+order, false);
+        xhr.open("GET", url+master, false);
         xhr.send(null);
         if (xhr.status===200){
             console.log(xhr.responseText);
@@ -61,8 +61,8 @@ class DataPageInput extends Component {
             <div className=" card getdata text-center" >
                 <label className={"card-title font-weight-bolder"}>GET MAPPED DATA</label>
                 <div className={"card-body"}>
-                    <label >Enter Order ID : </label>
-                    <label for="orderid"><input type="text" id="orderid" name="orderid" onChange={this.changeHandler} required /></label>
+                    <label >Enter Mapping ID : </label>
+                    <label for="masterid"><input type="text" id="masterid" name="masterid" onChange={this.changeHandler} required /></label>
                     <label >Enter User ID : </label>
                     <label for="userid"><input type="text" id="userid" name="userid" onChange={this.changeHandler} /></label>
                     <button type="submit" className={"btn btn-secondary"} id={"mappedDataid"} onClick={this.getMappedData}>GET MAPPED DATA</button>

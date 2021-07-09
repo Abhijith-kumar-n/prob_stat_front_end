@@ -8,14 +8,14 @@ class MasterJsonBody extends React.Component {
         e.preventDefault();
         const mapping = document.getElementById("MappingInput").value;
         let xhr = new XMLHttpRequest();
-        let url = 'http://localhost:9095/mappedData/takeinput';
+        let url = 'http://localhost:9095/Master/AddMaster';
         xhr.open("POST", url, false);
         xhr.setRequestHeader("Content-type", "application/json");
         xhr.send(mapping);
         console.log(xhr.getAllResponseHeaders());
         if (xhr.status === 200) {
             console.log(xhr.responseText);
-            alert(xhr.responseText);
+            alert("Added Master Successfully!!!");
 
         }
         else if (xhr.status === 404){
