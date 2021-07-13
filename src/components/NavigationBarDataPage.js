@@ -15,11 +15,14 @@ class NavigationBarDataPage extends React.Component {
                         <Link to="/AddToMaster">
                             <button className="btn btn-info " id="getMasterDataBtn" type="submit">ADD TO MASTER JSON</button>
                         </Link>
-                        <Link to="/">
+                        <Link to="/Mapping">
                             <button className="btn btn-info " id="getDataBtn" type="submit">Get Mapping</button>
                         </Link>
 
-                        <button className="btn btn-info "type="submit"><a className="App-link" href="http://localhost:9095/logout" id={"logout"} target="_self" rel="noopener noreferrer">Logout</a></button>
+                        <Link to="/">
+                            <button className="btn btn-info " type="submit">
+                                Logout
+                            </button></Link>
                     </div>
                 </nav>
             </div>

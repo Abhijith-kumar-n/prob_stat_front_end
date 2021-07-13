@@ -51,11 +51,7 @@
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/reportWebVitals.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/setupTests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject (copy)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/mappingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/MappingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/mongodbConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/MappingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -63,20 +59,195 @@
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/problemstatment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/all-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/fullstack/basic/authentication/springbootfullstackbasicauthloginlogout/SpringBootFullStackBasicAuthLoginLogoutApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/fullstack/basic/authentication/springbootfullstackbasicauthloginlogout/basic/auth/AuthenticationBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/fullstack/basic/authentication/springbootfullstackbasicauthloginlogout/basic/auth/BasicAuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/fullstack/basic/authentication/springbootfullstackbasicauthloginlogout/basic/auth/SpringSecurityConfigurationBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/fullstack/basic/authentication/springbootfullstackbasicauthloginlogout/course/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/fullstack/basic/authentication/springbootfullstackbasicauthloginlogout/course/CourseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/fullstack/basic/authentication/springbootfullstackbasicauthloginlogout/course/CoursesHardcodedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/backend-spring-boot-react-basic-auth-login-logout/src/test/java/com/in28minutes/fullstack/springboot/react/basic/authentication/springbootreactbasicauthloginlogout/SpringBootReactBasicAuthLoginLogoutApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/component/AuthenticatedRoute.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/component/InstructorApp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/component/ListCoursesComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/component/LoginComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/component/LogoutComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/component/MenuComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/service/AuthenticationService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/service/CourseDataService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-basic-auth-login-logout/frontend-spring-boot-react-basic-auth-login-logout/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/all-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/src/main/java/com/in28minutes/fullstack/springboot/rest/api/springbootcorscrossorigincsrf/SpringBootFullStackCorsCrossOriginCsrfApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/src/main/java/com/in28minutes/fullstack/springboot/rest/api/springbootcorscrossorigincsrf/basic/auth/SpringSecurityConfigurationBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/src/main/java/com/in28minutes/fullstack/springboot/rest/api/springbootcorscrossorigincsrf/course/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/src/main/java/com/in28minutes/fullstack/springboot/rest/api/springbootcorscrossorigincsrf/course/CourseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/src/main/java/com/in28minutes/fullstack/springboot/rest/api/springbootcorscrossorigincsrf/course/CoursesHardcodedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/backend-spring-boot-react-cors-cross-origin-csrf/src/test/java/com/in28minutes/fullstack/springboot/react/rest/api/springbootreactcorscrossorigincsrf/SpringBootReactCorsCrossOriginCsrfApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/component/ListCoursesComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/component/SecurityAppComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/service/CourseDataService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-cors-cross-origin-csrf/frontend-spring-boot-react-cors-cross-origin-csrf/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/all-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/backend-spring-boot-react-crud-full-stack-with-maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/backend-spring-boot-react-crud-full-stack-with-maven/src/main/java/com/in28minutes/fullstack/springboot/maven/crud/springbootcrudfullstackwithmaven/SpringBootFullStackCrudFullStackWithMavenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/backend-spring-boot-react-crud-full-stack-with-maven/src/main/java/com/in28minutes/fullstack/springboot/maven/crud/springbootcrudfullstackwithmaven/course/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/backend-spring-boot-react-crud-full-stack-with-maven/src/main/java/com/in28minutes/fullstack/springboot/maven/crud/springbootcrudfullstackwithmaven/course/CourseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/backend-spring-boot-react-crud-full-stack-with-maven/src/main/java/com/in28minutes/fullstack/springboot/maven/crud/springbootcrudfullstackwithmaven/course/CoursesHardcodedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/backend-spring-boot-react-crud-full-stack-with-maven/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/backend-spring-boot-react-crud-full-stack-with-maven/src/test/java/com/in28minutes/fullstack/springboot/react/maven/crud/springbootreactcrudfullstackwithmaven/SpringBootReactCrudFullStackWithMavenApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/component/CourseComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/component/InstructorApp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/component/ListCoursesComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/service/CourseDataService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-crud-full-stack-with-maven/frontend-spring-boot-react-crud-full-stack-with-maven/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/all-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/backend-spring-boot-react-hello-world-with-routing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/backend-spring-boot-react-hello-world-with-routing/src/main/java/com/in28minutes/fullstack/springboot/helloworld/springboothelloworldwithrouting/SpringBootFullStackHelloWorldWithRoutingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/backend-spring-boot-react-hello-world-with-routing/src/main/java/com/in28minutes/fullstack/springboot/helloworld/springboothelloworldwithrouting/helloworld/HelloWorldBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/backend-spring-boot-react-hello-world-with-routing/src/main/java/com/in28minutes/fullstack/springboot/helloworld/springboothelloworldwithrouting/helloworld/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/backend-spring-boot-react-hello-world-with-routing/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/backend-spring-boot-react-hello-world-with-routing/src/test/java/com/in28minutes/fullstack/springboot/react/helloworld/springbootreacthelloworldwithrouting/SpringBootReactHelloWorldWithRoutingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/component/HelloWorldApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/component/HelloWorldBeanComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/component/HelloWorldStringComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/component/MenuComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/service/HelloWorldService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-hello-world-with-routing/frontend-spring-boot-react-hello-world-with-routing/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/all-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/main/java/com/in28minutes/fullstack/springboot/jpa/hibernate/springbootjpahibernatewithh2fullstack/SpringBootFullStackJpaHibernateWithH2FullStackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/main/java/com/in28minutes/fullstack/springboot/jpa/hibernate/springbootjpahibernatewithh2fullstack/course/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/main/java/com/in28minutes/fullstack/springboot/jpa/hibernate/springbootjpahibernatewithh2fullstack/course/CourseJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/main/java/com/in28minutes/fullstack/springboot/jpa/hibernate/springbootjpahibernatewithh2fullstack/course/CourseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/backend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/test/java/com/in28minutes/fullstack/springboot/react/jpa/hibernate/springbootreactjpahibernatewithh2fullstack/SpringBootReactJpaHibernateWithH2FullStackApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jpa-hibernate-with-h2-full-stack/frontend-spring-boot-react-jpa-hibernate-with-h2-full-stack/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/all-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/SpringBootFullStackJwtAuthLoginLogoutApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/course/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/course/CourseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/course/CoursesHardcodedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JWTWebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtAuthenticationRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtInMemoryUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtTokenAuthorizationOncePerRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtUnAuthorizedResponseAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootjwtauthloginlogout/jwt/JwtUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/backend-spring-boot-react-jwt-auth-login-logout/src/test/java/com/in28minutes/fullstack/springboot/jwt/basic/authentication/springbootreactjwtauthloginlogout/SpringBootReactJwtAuthLoginLogoutApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-boot-react-fullstack-examples-master/spring-boot-react-jwt-auth-login-logout/frontend-spring-boot-react-jwt-auth-login-logout/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/HomeResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/MyUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/DataPageInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/DataPageInput.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dependentJS/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependentJS/DataPageInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dependentJS/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependentJS/MasterJsonBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddToMasterJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddToMasterJson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mappings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/MasterJsonBody.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/MasterJsonBody.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependentJS/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddUpdateApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependentJS/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DataPageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependentJS/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeleteReadApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependentJS/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MasterJsonBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependentJS/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependentJS/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBarDataPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/readData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/UserRegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Orders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" afterDir="false" />
@@ -115,7 +286,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../problemstatmentjson-problem-statment-2-final-a1c6ca1b6d17" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -126,22 +297,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/src/dependentJS" />
       <recent name="$PROJECT_DIR$/src/inBuilt" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/dependentJS" />
-      <recent name="$PROJECT_DIR$/src/css" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,7 +350,10 @@
       <workItem from="1625730166051" duration="10868000" />
       <workItem from="1625757482277" duration="285000" />
       <workItem from="1625805369077" duration="5378000" />
-      <workItem from="1625849755580" duration="2625000" />
+      <workItem from="1625849755580" duration="2721000" />
+      <workItem from="1626061550352" duration="14846000" />
+      <workItem from="1626107259853" duration="8127000" />
+      <workItem from="1626142256698" duration="6432000" />
     </task>
     <servers />
   </component>

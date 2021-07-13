@@ -15,7 +15,7 @@ class DataPageInput extends Component {
     getMappedData=event =>{
         event.preventDefault();
         let master=this.state.masterid;
-        var user=this.state.userid;
+        var user=localStorage.getItem("userId");
         console.log(master,user);
         let xhr = new XMLHttpRequest();
         let url = 'http://localhost:9095/userMappings/mapOrdersToMappings/';
@@ -47,6 +47,7 @@ class DataPageInput extends Component {
         if (xhr.status===200){
             console.log(xhr.responseText);
             // eslint-disable-next-line no-undef
+            viewdata.innerHTML=xhr.responseText;
             viewdata.innerHTML =JSON.stringify(JSON.parse(xhr.responseText),null,4);
         }
         else if(xhr.status === 404){
@@ -61,10 +62,10 @@ class DataPageInput extends Component {
             <div className=" card getdata text-center" >
                 <label className={"card-title font-weight-bolder"}>GET MAPPED DATA</label>
                 <div className={"card-body"}>
-                    <label >Enter Mapping ID : </label>
+                    <label >Enter Master Order ID : </label>
                     <label for="masterid"><input type="text" id="masterid" name="masterid" onChange={this.changeHandler} required /></label>
-                    <label >Enter User ID : </label>
-                    <label for="userid"><input type="text" id="userid" name="userid" onChange={this.changeHandler} /></label>
+                    {/*<label >Enter User ID : </label>*/}
+                    {/*<label for="userid"><input type="text" id="userid" name="userid" onChange={this.changeHandler} /></label>*/}
                     <button type="submit" className={"btn btn-secondary"} id={"mappedDataid"} onClick={this.getMappedData}>GET MAPPED DATA</button>
                     <button type="submit" className={"btn btn-secondary"} id={"masterDataid"} onClick={this.getMasterData}>GET MASTER JSON</button>
                 </div>

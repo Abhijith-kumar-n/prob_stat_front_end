@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/deletereadApp.css"
+import UserService from "../services/UserService";
 class DeleteReadApp extends React.Component {
     constructor(props) {
         super(props);
@@ -10,6 +11,8 @@ class DeleteReadApp extends React.Component {
         this.readAllMapping = this.readAllMapping.bind(this);
     }
     readAllMapping(){
+        let viewdata=document.getElementById("viewdata");
+
         let url="http://localhost:9095/userMappings/GetAllUserMappings";
         let xhr = new XMLHttpRequest();
         xhr.open("GET", url, false);
@@ -30,7 +33,8 @@ class DeleteReadApp extends React.Component {
     DeleteReadMapping = e => {
         e.preventDefault();
         console.log(this.state);
-        let userId = this.state.userid;
+        let userId = localStorage.getItem("userId");
+        //let userId = this.state.userid;
         let action = this.state.action;
         console.log(userId);
         let xhr = new XMLHttpRequest();
@@ -60,6 +64,7 @@ class DeleteReadApp extends React.Component {
                 console.log(xhr.responseText);
                 //alert(xhr.responseText);
                 // eslint-disable-next-line no-undef
+                viewdata.innerHTML=xhr.responseText;
                 viewdata.innerHTML = JSON.stringify(JSON.parse(xhr.responseText), null, 4);
             }
         }
@@ -71,8 +76,8 @@ class DeleteReadApp extends React.Component {
             <div className="card jumbotron readMapping float-right my-sm-auto" id={"deleteRead"}>
                 <label className="card-title font-weight-bold" id={"body2-title"}>DELETE /READ MAPPING</label>
                 <div className={"card-body"}>
-                    <label>User ID: </label>
-                    <label><input type="text" id="userId" name={"userid"} onChange={this.changeHandler}/></label>
+                    {/*<label>User ID: </label>*/}
+                    {/*<label><input type="text" id="userId" name={"userid"} onChange={this.changeHandler}/></label>*/}
                     <button type="submit" className="btn btn-secondary" id="allbutton"
                             onClick={this.readAllMapping}>Get All Users
                     </button><br />

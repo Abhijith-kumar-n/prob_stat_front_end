@@ -22,7 +22,8 @@ class AddUpdateApp extends React.Component {
         let action = this.state.action;
         console.log(action);
         let map={
-            "userId":this.state.userid,
+            "userId":localStorage.getItem("userId"),
+            //"userId":this.state.userid,
             "mapping":this.state.mapping
         }
         console.log(map);
@@ -66,8 +67,8 @@ class AddUpdateApp extends React.Component {
                         <label id={"body1-title"}>ADD / UPDATE MAPPING</label>
                     </div>
                     <div className="card-body ">
-                        <label>User ID: </label>
-                        <label><input type="text" id="userId" name={"userid"} onChange={this.changeHandlerAddUpdate}/></label>
+                        {/*<label>User ID: </label>*/}
+                        {/*<label><input type="text" id="userId" name={"userid"} onChange={this.changeHandlerAddUpdate}/></label>*/}
                         <textarea name="mapping" id="mapping" onChange={this.changeHandlerAddUpdate}></textarea><br/>
                         <label htmlFor="addUpdateActions">Choose to add/update:</label>
                         <select className="float-right" id="addUpdateActions" name="action"

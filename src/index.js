@@ -4,6 +4,7 @@ import './css/index.css';
 
 import reportWebVitals from './inBuilt/reportWebVitals';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import App from './App.js';
 import Mappings from './Mappings';
 import readData from './readData';
 import AddToMasterJson from './AddToMasterJson';
@@ -12,7 +13,8 @@ ReactDOM.render(
 
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Mappings} />
+            <Route exact path="/" component={App} />
+            <Route path="/Mapping" component={Mappings}/>
             <Route path="/data" component={readData} />
             <Route path="/AddToMaster" component={AddToMasterJson} />
         </Switch>
