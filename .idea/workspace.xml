@@ -428,22 +428,6 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddToMasterJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddToMasterJson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mappings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/AddUpdateApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/NavigationBarDataPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/home.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/login.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/signup.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inBuilt/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/inBuilt/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/readData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -567,7 +551,7 @@
       <workItem from="1626061550352" duration="14846000" />
       <workItem from="1626107259853" duration="8127000" />
       <workItem from="1626142256698" duration="13450000" />
-      <workItem from="1626239430634" duration="8691000" />
+      <workItem from="1626239430634" duration="9164000" />
     </task>
     <servers />
   </component>
