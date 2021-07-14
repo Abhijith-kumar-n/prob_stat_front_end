@@ -34,9 +34,16 @@ export default class Login extends Component {
         console.log("str --> "+JSON.stringify(user));
         xhr.send(JSON.stringify(user));
         if (xhr.status === 200) {
+            var jsonobject=JSON.parse(xhr.responseText)
             console.log(xhr.responseText);
-            alert(xhr.responseText);
-            localStorage.setItem("userId",JSON.stringify(JSON.parse(xhr.responseText).userId));
+            if (jsonobject.authenticated==true) {
+                //setTimeout( function ( ) { alert( "Logged In Successfully"); }, 100000 );
+                alert("Logged In Successfully");
+                localStorage.setItem("userId", JSON.stringify(jsonobject.userId));
+            }
+            else{
+                alert("Login Failed")
+            }
         }
         let response=JSON.parse(xhr.responseText);
         console.log(response)

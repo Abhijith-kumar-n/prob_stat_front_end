@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Mappings from '../Mappings';
+import Mappings from '../components/Mappings';
 
 test('renders learn react link', () => {
   render(<Mappings />);

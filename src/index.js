@@ -5,9 +5,9 @@ import './css/index.css';
 import reportWebVitals from './inBuilt/reportWebVitals';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from './App.js';
-import Mappings from './Mappings';
-import readData from './readData';
-import AddToMasterJson from './AddToMasterJson';
+import Mappings from './components/Mappings';
+import readData from './components/readData';
+import AddToMasterJson from './components/AddToMasterJson';
 
 ReactDOM.render(
 

@@ -1,6 +1,6 @@
-import './css/bootstrap.min.css';
-import NavigationBar from "./components/NavigationBar";
-import MasterJsonBody from "./components/MasterJsonBody";
+import '../css/bootstrap.min.css';
+import NavigationBar from "../DependentJs/NavigationBar";
+import MasterJsonBody from "../DependentJs/MasterJsonBody";
 
 
 function AddToMasterJson(){

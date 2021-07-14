@@ -3,9 +3,9 @@ import './css/bootstrap.min.css';
 import './css/App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import Login from "./components/login.component";
-import SignUp from "./components/signup.component";
-import Home from "./components/home.component";
+import Login from "./DependentJs/login.component";
+import SignUp from "./DependentJs/signup.component";
+import Mappings from "./components/Mappings";
 
 function App() {
   return (<Router>
@@ -32,7 +32,7 @@ function App() {
             <Route exact path='/' component={Login} />
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
-            <Route path="/home" component={Home} />
+            <Route path="/Mapping" component={Mappings} />
           </Switch>
         </div>
       </div>

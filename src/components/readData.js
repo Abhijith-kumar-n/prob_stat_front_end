@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/bootstrap.min.css';
-import NavigationBarDataPage from "./components/NavigationBarDataPage";
-import DataPageInput from "./components/DataPageInput";
+import '../css/bootstrap.min.css';
+import NavigationBarDataPage from "../DependentJs/NavigationBarDataPage";
+import DataPageInput from "../DependentJs/DataPageInput";
 function readData(){
     return (
         <div >
