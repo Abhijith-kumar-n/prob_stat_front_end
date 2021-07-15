@@ -51,6 +51,9 @@ class DeleteReadApp extends React.Component {
                 // eslint-disable-next-line no-undef
                 viewdata.innerHTML = " ";//JSON.stringify(JSON.parse(xhr.responseText), null, 4);
             }
+            else if (xhr.status===400){
+                alert("Please Login")
+            }
         }
         else if (action === "Read") {
             let xhr = new XMLHttpRequest();
@@ -66,6 +69,9 @@ class DeleteReadApp extends React.Component {
                 // eslint-disable-next-line no-undef
                 viewdata.innerHTML=xhr.responseText;
                 viewdata.innerHTML = JSON.stringify(JSON.parse(xhr.responseText), null, 4);
+            }
+            else if (xhr.status===400){
+                alert("Please Login");
             }
         }
     }

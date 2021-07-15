@@ -4,6 +4,10 @@ import '../css/navigationBar.css';
 import {Link} from "react-router-dom";
 
 class NavigationBar extends React.Component {
+    logoutHandle=e=>{
+        localStorage.setItem("userId",null);
+        alert("Log Out Successful");
+    }
     render() {
         return (
             <div>
@@ -16,7 +20,7 @@ class NavigationBar extends React.Component {
                             Data
                         </button></Link>
                         <Link to="/">
-                        <button className="btn btn-info " type="submit">
+                        <button className="btn btn-info " type="submit" onClick={this.logoutHandle}>
                             Logout
                         </button></Link>
                     </div>
