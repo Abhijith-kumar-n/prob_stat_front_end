@@ -1,7 +1,5 @@
-import React, { Component } from "react";
-import UserService from '../services/UserService';
-import { Redirect } from 'react-router-dom';
-import { useHistory } from "react-router-dom";
+import React, {Component} from "react";
+import {useHistory} from 'react-router-dom';
 
 const history = useHistory;
 export default class Login extends Component {
@@ -36,8 +34,8 @@ export default class Login extends Component {
         if (xhr.status === 200) {
             var jsonobject=JSON.parse(xhr.responseText)
             console.log(xhr.responseText);
-            if (jsonobject.authenticated==true) {
-                //setTimeout( function ( ) { alert( "Logged In Successfully"); }, 100000 );
+            if (jsonobject.authenticated) {
+
                 alert("Logged In Successfully");
                 localStorage.setItem("userId", JSON.stringify(jsonobject.userId));
             }
@@ -48,7 +46,6 @@ export default class Login extends Component {
         let response=JSON.parse(xhr.responseText);
         console.log(response)
         if(response.authenticated===true){
-            // this.props.history.push("/Mapping");
             console.log("in if true")
             this.props.history.push("/Mapping/" );
             location.reload();
@@ -57,10 +54,7 @@ export default class Login extends Component {
             this.props.history.push("/");
             location.reload();
         }
-         // UserService.loginUser(user).then(res=> {
-         //     this.props.history.push('/home');
-         //
-         // });
+
 
     }
     changeUsernameHandler= (event) => {

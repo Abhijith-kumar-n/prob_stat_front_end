@@ -48,7 +48,7 @@ class MasterJsonBody extends React.Component {
                         localStorage.setItem("orderID",tenure);
                         this.PostMapOnChange();
                     }
-                    //setTimeout(function(){console.log("TimeOut")},10000);
+
                 }
                 else {
 
@@ -92,11 +92,9 @@ class MasterJsonBody extends React.Component {
                     console.log(tenure);
                     if (tenure != null) {
                         localStorage.setItem("orderID",tenure);
-                        //setTimeout(function(){console.log("timeup")},1000);
                         this.PostMapOnChange();
                     }
-                   // if(localStorage.getItem())
-                    //setTimeout(function(){console.log("TimeOut")},10000);
+
                 }
                 else {
 

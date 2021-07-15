@@ -258,8 +258,6 @@
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/reportWebVitals.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/src/setupTests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../jsonProject (copy)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/UserLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/mongodbConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../problemstatment/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -429,29 +427,46 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/login.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/signup.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/MainController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/UserRegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/UserRegistrationController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Controller/fileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/CustomJsonMapper1Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/CustomerItemOrderRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/CustomerRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/ItemRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/OrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/Repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/dto/UserRegistrationDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Customer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Item.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/model/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/java/com/jsonMapper/service/UserServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/html1file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/js/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updateMappingStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/updatemapping.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/main/resources/templates/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsonProject/src/test/java/com/jsonMapper/CustomJsonMapper1ApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../junk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../updateMappingStyle.css" beforeDir="false" />
@@ -495,6 +510,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -506,17 +522,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -556,7 +561,9 @@
       <workItem from="1626107259853" duration="8127000" />
       <workItem from="1626142256698" duration="13450000" />
       <workItem from="1626239430634" duration="9495000" />
-      <workItem from="1626345995472" duration="2478000" />
+      <workItem from="1626345995472" duration="2887000" />
+      <workItem from="1626350981983" duration="355000" />
+      <workItem from="1626353562308" duration="323000" />
     </task>
     <servers />
   </component>

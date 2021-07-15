@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/deletereadApp.css"
-import UserService from "../services/UserService";
+
 class DeleteReadApp extends React.Component {
     constructor(props) {
         super(props);
@@ -34,10 +34,8 @@ class DeleteReadApp extends React.Component {
         e.preventDefault();
         console.log(this.state);
         let userId = localStorage.getItem("userId");
-        //let userId = this.state.userid;
         let action = this.state.action;
         console.log(userId);
-        let xhr = new XMLHttpRequest();
         if (action === "delete") {
             let xhr = new XMLHttpRequest();
             let url = 'http://localhost:9095/userMappings/DeleteUserMappings/'+userId;
@@ -49,7 +47,7 @@ class DeleteReadApp extends React.Component {
                 console.log(xhr.responseText);
                 alert("deleted"+xhr.responseText);
                 // eslint-disable-next-line no-undef
-                viewdata.innerHTML = " ";//JSON.stringify(JSON.parse(xhr.responseText), null, 4);
+                viewdata.innerHTML = " ";
             }
             else if (xhr.status===400){
                 alert("Please Login")

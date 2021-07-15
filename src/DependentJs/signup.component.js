@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import UserService from '../services/UserService';
-import { browserHistory } from 'history';
 
 
 class SignUp extends Component {
@@ -16,7 +15,7 @@ class SignUp extends Component {
     }
     saveUser = (e) => {
         e.preventDefault();
-        //let user = {"userName": this.state.userName, "phoneNo": this.state.phoneNo, "email": this.state.email,"password": this.state.password};
+
         console.log('user => ' + JSON.stringify(this.state));
 
          UserService.createUser(this.state).then(res=> {
