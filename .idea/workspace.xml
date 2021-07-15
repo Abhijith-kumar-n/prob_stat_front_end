@@ -427,11 +427,19 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b5010a261dbb3d934d45979b7283c787ee27d4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f2b9e180b21585b9d2843291e380ad47ee1f2b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/AddUpdateApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/NavigationBarDataPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependentJs/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/login.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/signup.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -522,6 +530,17 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -563,7 +582,7 @@
       <workItem from="1626239430634" duration="9495000" />
       <workItem from="1626345995472" duration="2887000" />
       <workItem from="1626350981983" duration="355000" />
-      <workItem from="1626353562308" duration="323000" />
+      <workItem from="1626353562308" duration="1864000" />
     </task>
     <servers />
   </component>

@@ -37,7 +37,7 @@ export default class Login extends Component {
             if (jsonobject.authenticated) {
 
                 alert("Logged In Successfully");
-                localStorage.setItem("userId", JSON.stringify(jsonobject.userId));
+                sessionStorage.setItem("userId", JSON.stringify(jsonobject.userId));
             }
             else{
                 alert("Login Failed")

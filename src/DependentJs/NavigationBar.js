@@ -5,7 +5,8 @@ import {Link} from "react-router-dom";
 
 class NavigationBar extends React.Component {
     logoutHandle=e=>{
-        localStorage.setItem("userId",null);
+        sessionStorage.setItem("userId",null);
+        sessionStorage.clear();
         alert("Log Out Successful");
     }
     render() {

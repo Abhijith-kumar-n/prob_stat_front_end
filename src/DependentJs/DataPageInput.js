@@ -15,7 +15,7 @@ class DataPageInput extends Component {
     getMappedData=event =>{
         event.preventDefault();
         let master=this.state.masterid;
-        var user=localStorage.getItem("userId");
+        var user=sessionStorage.getItem("userId");
         console.log(master,user);
         let xhr = new XMLHttpRequest();
         let url = 'http://localhost:9095/userMappings/mapOrdersToMappings/';

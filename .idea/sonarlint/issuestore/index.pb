@@ -30,9 +30,3 @@ J
 src/css/MasterJsonBody.css,5/e/5e2bcc8a47c4fb82edbdd338128d5b51a3122907
 I
 src/css/navigationBar.css,5/f/5f989fdddf0f8a47cf7fac7a82164d963c77e849
-O
-src/DependentJs/AddUpdateApp.js,6/f/6f2b9e180b21585b9d2843291e380ad47ee1f2b9
-P
- src/DependentJs/DataPageInput.js,0/b/0b5010a261dbb3d934d45979b7283c787ee27d4c
-P
- src/DependentJs/DeleteReadApp.js,a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73

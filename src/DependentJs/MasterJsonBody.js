@@ -20,7 +20,7 @@ class MasterJsonBody extends React.Component {
         let map=JSON.parse(mapping);
         console.log(map);
         console.log(map.orderId);
-        map.orderId=parseInt(localStorage.getItem("orderID"));
+        map.orderId=parseInt(sessionStorage.getItem("orderID"));
         console.log(map);
 
         if(map.orderId===undefined)
@@ -45,7 +45,7 @@ class MasterJsonBody extends React.Component {
                     var tenure = prompt("Order ID Already Exists \n Wish to change order ID ");
                     console.log("prompt---->",tenure);
                     if (tenure != null) {
-                        localStorage.setItem("orderID",tenure);
+                        sessionStorage.setItem("orderID",tenure);
                         this.PostMapOnChange();
                     }
 
@@ -91,7 +91,7 @@ class MasterJsonBody extends React.Component {
                     var tenure = prompt("Order ID Already Exists \n Wish to change order ID ");
                     console.log(tenure);
                     if (tenure != null) {
-                        localStorage.setItem("orderID",tenure);
+                        sessionStorage.setItem("orderID",tenure);
                         this.PostMapOnChange();
                     }
 

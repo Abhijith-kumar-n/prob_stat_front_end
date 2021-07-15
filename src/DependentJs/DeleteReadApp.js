@@ -33,7 +33,7 @@ class DeleteReadApp extends React.Component {
     DeleteReadMapping = e => {
         e.preventDefault();
         console.log(this.state);
-        let userId = localStorage.getItem("userId");
+        let userId = sessionStorage.getItem("userId");
         let action = this.state.action;
         console.log(userId);
         if (action === "delete") {

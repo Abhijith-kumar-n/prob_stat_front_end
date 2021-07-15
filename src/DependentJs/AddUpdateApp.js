@@ -22,7 +22,7 @@ class AddUpdateApp extends React.Component {
         let action = this.state.action;
         console.log(action);
         let map={
-            "userId":localStorage.getItem("userId"),
+            "userId":sessionStorage.getItem("userId"),
             //"userId":this.state.userid,
             "mapping":this.state.mapping
         }
