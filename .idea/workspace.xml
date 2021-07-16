@@ -227,6 +227,11 @@
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f994e8368d7f4a76660f07b00cf671304507c108" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/addupdateapp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/deletereadapp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/signUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -434,12 +439,44 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59a3c2bc15d5aaad9332ea3d705577933f3afeb1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e47e3cc0803df0d1073708c8416d8e15cd8d7c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b556012105bfebcfb21e8cb5bee82a784ea166d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e2bcc8a47c4fb82edbdd338128d5b51a3122907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f989fdddf0f8a47cf7fac7a82164d963c77e849" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f2b9e180b21585b9d2843291e380ad47ee1f2b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81bf9747002caed17c5bd93a784f21495ac072ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bbe469833790d89d3e1794fe48c97ff4fb09c14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6773a3bf0d0b7c2f0de566f75495c1ea9c64d5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1833813b5d1474c4f2c77c9a5352153364c2c8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/components/AddUpdateApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/readData/components/DataPageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/components/DeleteReadApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/LoginPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/MasterJsonBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/components/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/NavigationBarDataPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/SignUpPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signup.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddToMasterJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/readData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/readData/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/AddUpdateApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/css/AddUpdateApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/DataPageInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/readData/components/DataPageInput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/MasterJsonBody.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/css/MasterJsonBody.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/deletereadApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/css/deletereadApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inBuilt/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inBuilt/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inBuilt/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserService.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -489,8 +526,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -524,14 +561,27 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/css" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/DependentJs" />
-      <recent name="$PROJECT_DIR$/src/dependentJS" />
-      <recent name="$PROJECT_DIR$/src/inBuilt" />
+      <recent name="$PROJECT_DIR$/src/pages/readData/components" />
+      <recent name="$PROJECT_DIR$/src/pages/Mappings/css" />
+      <recent name="$PROJECT_DIR$/src/pages/AddToMasterJson/css" />
+      <recent name="$PROJECT_DIR$/src/pages/AddToMasterJson/components" />
+      <recent name="$PROJECT_DIR$/src/pages/Mappings/components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -576,7 +626,8 @@
       <workItem from="1626353562308" duration="10411000" />
       <workItem from="1626417480413" duration="301000" />
       <workItem from="1626417868834" duration="1227000" />
-      <workItem from="1626419940653" duration="693000" />
+      <workItem from="1626419940653" duration="828000" />
+      <workItem from="1626430446041" duration="12584000" />
     </task>
     <servers />
   </component>
@@ -599,7 +650,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js</url>
+          <url>file://$PROJECT_DIR$/src/pages/AddToMasterJson/components/MasterJsonBody.js</url>
           <line>93</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

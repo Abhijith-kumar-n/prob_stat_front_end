@@ -11,9 +11,9 @@
 |   |-- login.component.js
 |   `-- signup.component.js
 |-- components
-|   |-- AddToMasterJson.js
-|   |-- Mappings.js
-|   `-- readData.js
+|   |-- Index.js
+|   |-- index.js
+|   `-- index.js
 |-- css
 |   |-- AddUpdateApp.css
 |   |-- App.css
