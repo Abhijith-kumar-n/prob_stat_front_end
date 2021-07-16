@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {useHistory} from 'react-router-dom';
 
 const history = useHistory;
-export default class Login extends Component {
+export default class LoginPage extends Component {
 
     constructor(props) {
         super(props)
@@ -44,16 +44,14 @@ export default class Login extends Component {
             }
         }
         let response=JSON.parse(xhr.responseText);
-        console.log(response)
+        console.log(response);
         if(response.authenticated===true){
             console.log("in if true")
-            this.props.history.push("/Mapping/" );
-            // eslint-disable-next-line no-restricted-globals
+            this.history.push("/Mapping" );
             location.reload();
         }
         else{
             this.props.history.push("/");
-            // eslint-disable-next-line no-restricted-globals
             location.reload();
         }
 
@@ -69,7 +67,7 @@ export default class Login extends Component {
     
     render() {
         return (
-            
+
             <form>
                 <h3>Sign In</h3>
 

@@ -48,6 +48,7 @@ class DataPageInput extends Component {
             console.log(xhr.responseText);
             // eslint-disable-next-line no-undef
             viewdata.innerHTML=xhr.responseText;
+            // eslint-disable-next-line no-undef
             viewdata.innerHTML =JSON.stringify(JSON.parse(xhr.responseText),null,4);
         }
         else if(xhr.status === 404){

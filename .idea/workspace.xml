@@ -220,6 +220,13 @@
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/Service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/config/mongoDBConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../expMongo/src/main/java/com/example/expmongo/model/userMappings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/0/b/0b5010a261dbb3d934d45979b7283c787ee27d4c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/2/2/22a2546ef837b3d754631ad44f06ad1829509be7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/7/d/7d0580a1ca24674f2d0c7d61383eb95ca3053f2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f994e8368d7f4a76660f07b00cf671304507c108" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -427,19 +434,15 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b5010a261dbb3d934d45979b7283c787ee27d4c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f2b9e180b21585b9d2843291e380ad47ee1f2b9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/AddUpdateApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/NavigationBarDataPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/login.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependentJs/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/SignUpPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home.component.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -489,13 +492,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1utrFhk5HXpxpglWZnvkf7ycY0c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -522,9 +527,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/css" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/DependentJs" />
-      <recent name="$PROJECT_DIR$/src/css" />
       <recent name="$PROJECT_DIR$/src/dependentJS" />
       <recent name="$PROJECT_DIR$/src/inBuilt" />
     </key>
@@ -582,7 +587,9 @@
       <workItem from="1626239430634" duration="9495000" />
       <workItem from="1626345995472" duration="2887000" />
       <workItem from="1626350981983" duration="355000" />
-      <workItem from="1626353562308" duration="1864000" />
+      <workItem from="1626353562308" duration="10411000" />
+      <workItem from="1626417480413" duration="301000" />
+      <workItem from="1626417868834" duration="622000" />
     </task>
     <servers />
   </component>

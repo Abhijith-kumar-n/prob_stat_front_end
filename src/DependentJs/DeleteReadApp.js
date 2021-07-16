@@ -63,9 +63,9 @@ class DeleteReadApp extends React.Component {
             console.log(xhr.status);
             if (xhr.status===200){
                 console.log(xhr.responseText);
-                //alert(xhr.responseText);
                 // eslint-disable-next-line no-undef
                 viewdata.innerHTML=xhr.responseText;
+                // eslint-disable-next-line no-undef
                 viewdata.innerHTML = JSON.stringify(JSON.parse(xhr.responseText), null, 4);
             }
             else if (xhr.status===400){

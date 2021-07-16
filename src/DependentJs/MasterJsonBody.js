@@ -40,7 +40,7 @@ class MasterJsonBody extends React.Component {
             console.log(xhr.getAllResponseHeaders());
             if (xhr.status === 200) {
                 console.log(xhr.responseText);
-                if (xhr.responseText=="Present")
+                if (xhr.responseText==="Present")
                 {
                     var tenure = prompt("Order ID Already Exists \n Wish to change order ID ");
                     console.log("prompt---->",tenure);
