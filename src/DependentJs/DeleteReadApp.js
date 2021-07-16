@@ -5,8 +5,7 @@ class DeleteReadApp extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            userid:'',
-            action: 'Read'
+            action: 'read'
         };
         this.readAllMapping = this.readAllMapping.bind(this);
     }
@@ -53,7 +52,7 @@ class DeleteReadApp extends React.Component {
                 alert("Please Login")
             }
         }
-        else if (action === "Read") {
+        else if (action === "read") {
             let xhr = new XMLHttpRequest();
             let url = 'http://localhost:9095/userMappings/GetUserMapping/'+userId;
             xhr.open("GET", url, false);
@@ -65,8 +64,12 @@ class DeleteReadApp extends React.Component {
                 console.log(xhr.responseText);
                 // eslint-disable-next-line no-undef
                 viewdata.innerHTML=xhr.responseText;
-                // eslint-disable-next-line no-undef
-                viewdata.innerHTML = JSON.stringify(JSON.parse(xhr.responseText), null, 4);
+
+                try {
+                    // eslint-disable-next-line no-undef
+                    viewdata.innerHTML = JSON.stringify(JSON.parse(xhr.responseText), null, 4);
+                }
+                catch (err) {console.log(err)}
             }
             else if (xhr.status===400){
                 alert("Please Login");

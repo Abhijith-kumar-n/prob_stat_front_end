@@ -33,12 +33,6 @@ J
 src/components/readData.js,6/1/61bc4162390af13d1234db7e1376c5bbef6ab91e
 P
  src/DependentJs/NavigationBar.js,a/5/a561dfb3008bf5fd546a4428336a741a53b997e4
-U
-%src/DependentJs/LoginNavigationBar.js,b/5/b556012105bfebcfb21e8cb5bee82a784ea166d9
-H
-src/components/SignUp.js,9/e/9e47e3cc0803df0d1073708c8416d8e15cd8d7c6
-D
-src/css/AppStyle.css,5/9/59a3c2bc15d5aaad9332ea3d705577933f3afeb1
 O
 src/DependentJs/AddUpdateApp.js,6/f/6f2b9e180b21585b9d2843291e380ad47ee1f2b9
 J

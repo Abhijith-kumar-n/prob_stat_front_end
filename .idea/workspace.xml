@@ -434,15 +434,12 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59a3c2bc15d5aaad9332ea3d705577933f3afeb1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e47e3cc0803df0d1073708c8416d8e15cd8d7c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b556012105bfebcfb21e8cb5bee82a784ea166d9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DataPageInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/DeleteReadApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/MasterJsonBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependentJs/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependentJs/SignUpPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home.component.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -535,17 +532,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -589,7 +575,8 @@
       <workItem from="1626350981983" duration="355000" />
       <workItem from="1626353562308" duration="10411000" />
       <workItem from="1626417480413" duration="301000" />
-      <workItem from="1626417868834" duration="622000" />
+      <workItem from="1626417868834" duration="1227000" />
+      <workItem from="1626419940653" duration="693000" />
     </task>
     <servers />
   </component>
