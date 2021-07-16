@@ -15,5 +15,20 @@ class Api{
                 'Content-Type': 'application/json'
             }});
     }
+
+    static Put(url, user) {
+        return axios.put(url,user,{
+            headers: {
+                'Content-Type': 'application/json'
+            }});
+    }
+
+    static Delete(url) {
+        return axios.delete(url,{
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin':'*'
+            }});
+    }
 }
 export default Api;

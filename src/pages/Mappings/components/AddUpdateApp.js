@@ -38,7 +38,7 @@ class AddUpdateApp extends React.Component {
 
         }
         else if ((action.toString() ==="\""+"update"+"\"")||(action.toString()==="update")) {
-            Api.Post(ADD_UPDATE_MESSAGES.ADD_UPDATE_PAGE_UPDATE_API_URL,JSON.stringify(map)).then(response => {
+            Api.Put(ADD_UPDATE_MESSAGES.ADD_UPDATE_PAGE_UPDATE_API_URL,JSON.stringify(map)).then(response => {
                     if (response.status === 200) {
                         alert(JSON.stringify(response.data));
                     }

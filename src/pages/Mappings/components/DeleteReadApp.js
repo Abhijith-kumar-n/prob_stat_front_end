@@ -26,7 +26,7 @@ class DeleteReadApp extends React.Component {
         let action = this.state.action;
         console.log(userId);
         if (action === "delete") {
-            Api.Get(DELETE_READ_MESSAGES.DELETE_READ_PAGE_DELETE_API_URL+userId).then(response => {
+            Api.Delete(DELETE_READ_MESSAGES.DELETE_READ_PAGE_DELETE_API_URL+userId).then(response => {
                 if (response.status===200){
                     alert("deleted"+JSON.stringify(response.data));
                     // eslint-disable-next-line no-undef
@@ -41,7 +41,7 @@ class DeleteReadApp extends React.Component {
         else if (action === "read") {
             Api.Get(DELETE_READ_MESSAGES.DELETE_READ_PAGE_READ_API_URL+userId).then(response => {
                 if (response.status===200){
-                    alert("deleted"+JSON.stringify(response.data));
+                    alert(JSON.stringify(response.data));
                     // eslint-disable-next-line no-undef
                     viewdata.innerHTML = JSON.stringify(response.data,null,4);
                 }

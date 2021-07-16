@@ -1,37 +1,46 @@
 ./src
 |-- App.js
-|-- DependentJs
-|   |-- AddUpdateApp.js
-|   |-- DataPageInput.js
-|   |-- DeleteReadApp.js
-|   |-- MasterJsonBody.js
-|   |-- NavigationBar.js
-|   |-- NavigationBarDataPage.js
-|   |-- home.component.js
+|-- components
 |   |-- login.component.js
 |   `-- signup.component.js
-|-- components
-|   |-- Index.js
-|   |-- index.js
-|   `-- index.js
+|-- consts
+|   |-- addupdateapp.js
+|   |-- deletereadapp.js
+|   |-- login.js
+|   `-- signUp.js
 |-- css
-|   |-- AddUpdateApp.css
 |   |-- App.css
 |   |-- App2.css
-|   |-- DataPageInput.css
-|   |-- MasterJsonBody.css
 |   |-- bootstrap.min.css
-|   |-- deletereadApp.css
-|   |-- index.css
 |   `-- navigationBar.css
-|-- inBuilt
-|   |-- App.test.js
-|   |-- reportWebVitals.js
-|   `-- setupTests.js
+|-- index.css
 |-- index.js
+|-- pages
+|   |-- AddToMasterJson
+|   |   |-- components
+|   |   |   |-- MasterJsonBody.js
+|   |   |   `-- NavigationBarDataPage.js
+|   |   |-- css
+|   |   |   `-- MasterJsonBody.css
+|   |   `-- index.js
+|   |-- Mappings
+|   |   |-- components
+|   |   |   |-- AddUpdateApp.js
+|   |   |   |-- DeleteReadApp.js
+|   |   |   `-- NavigationBar.js
+|   |   |-- css
+|   |   |   |-- AddUpdateApp.css
+|   |   |   `-- deletereadApp.css
+|   |   `-- index.js
+|   `-- readData
+|       |-- components
+|       |   |-- DataPageInput.css
+|       |   `-- DataPageInput.js
+|       |-- css
+|       `-- index.js
 |-- serviceWorker.js
 `-- services
-    `-- UserService.js
+    `-- api.js
 ./public
 |-- favicon.ico
 |-- index.html
@@ -40,4 +49,4 @@
 |-- manifest.json
 `-- robots.txt
 
-5 directories, 34 files
+14 directories, 34 files

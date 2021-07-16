@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../css/bootstrap.min.css';
-import NavigationBarDataPage from "../AddToMasterJson/components/NavigationBarDataPage";
+import NavigationBarDataPage from "./components/NavigationBarDataPage";
 import DataPageInput from "./components/DataPageInput";
 
 

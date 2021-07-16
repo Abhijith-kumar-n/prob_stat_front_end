@@ -15,9 +15,12 @@ class NavigationBarDataPage extends React.Component {
             <div>
                 <nav className={"navbar bg-light"}>
                     <div>
-                        <a className="navbar-brand text-dark font-weight-bold">{NAVIGATION_MESSAGES.NAVIGATION_BAR_ADD_MASTER_PAGE_TITLE}</a>
+                        <a className="navbar-brand text-dark font-weight-bold">{NAVIGATION_MESSAGES.NAVIGATION_BAR_DATA_PAGE_TITLE}</a>
                     </div>
                     <div>
+                        <Link to="/AddToMaster">
+                            <button className="btn btn-info " id="getMasterDataBtn" type="submit">{NAVIGATION_MESSAGES.NAVIGATION_BAR_TO_ADD_MASTER_PAGE}</button>
+                        </Link>
                         <Link to="/Mapping">
                             <button className="btn btn-info " id="getDataBtn" type="submit">{NAVIGATION_MESSAGES.NAVIGATION_BAR_TO_MAPPING_PAGE}</button>
                         </Link>

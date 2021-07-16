@@ -12,22 +12,12 @@ I
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
-R
-"src/pages/AddToMasterJson/index.js,e/9/e9334a72d5a6d4e902aec525a8a0a14945b15fb2
 K
 src/pages/Mappings/index.js,7/9/7927ee4e953fef53c649d0f481ea2b0de7d816ea
-K
-src/pages/readData/index.js,5/2/52b3afbedce478e42bec4c4a46f0c02a70fa8387
-^
-.src/pages/readData/components/DataPageInput.js,5/a/5af4b29d3a5c15ffc298dc46f8d4714ea670e475
-f
-6src/pages/AddToMasterJson/components/MasterJsonBody.js,a/d/ad198306f9e4b69644d74cdc8e7ec34408b88a28
 `
 0src/pages/AddToMasterJson/css/MasterJsonBody.css,8/9/897b33c97725f00281eb89da1902d7d13bd49470
 I
 src/css/navigationBar.css,5/f/5f989fdddf0f8a47cf7fac7a82164d963c77e849
-m
-=src/pages/AddToMasterJson/components/NavigationBarDataPage.js,8/7/875e65f88f46b1bf591128c69068ec994eab7d66
 <
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 X
@@ -46,11 +36,5 @@ R
 "src/components/signup.component.js,6/0/60dbc030dac512402a678bfa2140fe7e95a69b67
 J
 src/consts/addupdateapp.js,6/d/6d5efca916185558f2aa85cf416ffad062d7b47d
-]
--src/pages/Mappings/components/AddUpdateApp.js,a/b/ab92bb151179b0cd5e62f9ee575e015bf1d1de45
-C
-src/services/api.js,f/b/fbbdd259a63c246e936c6ea7d2be5c47f0a9da60
 K
 src/consts/deletereadapp.js,0/d/0dfe9e93618d79b42b5dd47f7252aeb03fa48c78
-^
-.src/pages/Mappings/components/DeleteReadApp.js,5/7/573d8890b4ee8c3a711b40d1780a08da5ad8a45c

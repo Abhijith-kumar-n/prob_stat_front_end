@@ -1,7 +1,8 @@
 import React from "react";
 import "../../../css/bootstrap.min.css";
 import "../css/MasterJsonBody.css";
-
+import {MASTER_JSON_MESSAGES} from "../../../consts/masterjsonbody";
+import Api from "../../../services/api";
 class MasterJsonBody extends React.Component {
 
     constructor(props){
@@ -14,55 +15,46 @@ class MasterJsonBody extends React.Component {
     ChangeHandler=event=>{
         this.setState({[event.target.name]: event.target.value})
 }
-    PostMapOnChange=e=>{
+    PostMapOnChange=e=> {
 
         const mapping = document.getElementById("MappingInput").value;
-        let map=JSON.parse(mapping);
-        console.log(map);
-        console.log(map.orderId);
-        map.orderId=parseInt(sessionStorage.getItem("orderID"));
-        console.log(map);
+        let map = JSON.parse(mapping);
+        map.orderId = parseInt(sessionStorage.getItem(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_STORAGE_ORDERID_KEY));
 
-        if(map.orderId===undefined)
-        {
-            alert("Required OrderId*. NOT FOUND")
-        }
-        else {
-            let maps = {
-                "orderId": map.orderId,
-                "masterJson": JSON.stringify(map)
-            }
-            let xhr = new XMLHttpRequest();
-            let url = 'http://localhost:9095/Master/AddMaster';
-            xhr.open("POST", url, false);
-            xhr.setRequestHeader("Content-type", "application/json");
-            xhr.send(JSON.stringify(maps));
-            console.log(xhr.getAllResponseHeaders());
-            if (xhr.status === 200) {
-                console.log(xhr.responseText);
-                if (xhr.responseText==="Present")
-                {
-                    var tenure = prompt("Order ID Already Exists \n Wish to change order ID ");
-                    console.log("prompt---->",tenure);
-                    if (tenure != null) {
-                        sessionStorage.setItem("orderID",tenure);
-                        this.PostMapOnChange();
+            if (map.orderId === undefined) {
+                alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ORDERID_UNDEFINED_ERROR)
+            } else {
+                let maps = {
+                    "orderId": map.orderId,
+                    "masterJson": JSON.stringify(map)
+                }
+                Api.Post(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ADD_MASTER_API_URL, maps).then(response => {
+                if (response.status === 200) {
+                    if (response.data === "Present") {
+                        var tenure = prompt(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_PROMPT_MSG_ON_DUPLICATE_ORDERID);
+                        console.log("prompt---->", tenure);
+                        if (tenure != null) {
+                            sessionStorage.setItem(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_STORAGE_ORDERID_KEY, tenure);
+
+
+                            this.PostMapOnChange();
+                        }
+
+                    } else {
+
+                        alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_POST_SUCCESSFUL);
                     }
 
-                }
-                else {
+                } else if (response.status === 404) {
+                    alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ERROR_404);
 
-                    alert("Added Master Successfully!!!");
+                } else if (response.status === 500) {
+                    alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ERROR_500);
                 }
-
-            } else if (xhr.status === 404) {
-                alert("Not Found");
-            } else if (xhr.status === 500) {
-                alert("Internal Error");
-            }
+            })
         }
     }
-    PostMapping=e=>{
+        PostMapping=e=>{
         e.preventDefault();
         const mapping = document.getElementById("MappingInput").value;
         let map=JSON.parse(mapping);
@@ -70,7 +62,7 @@ class MasterJsonBody extends React.Component {
         console.log(map.orderId);
         if(map.orderId===undefined)
         {
-            alert("Required OrderId*. NOT FOUND")
+            alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ORDERID_UNDEFINED_ERROR)
         }
         else {
             let maps = {
@@ -78,34 +70,29 @@ class MasterJsonBody extends React.Component {
                 "masterJson": mapping
             }
 
-            let xhr = new XMLHttpRequest();
-            let url = 'http://localhost:9095/Master/AddMaster';
-            xhr.open("POST", url, false);
-            xhr.setRequestHeader("Content-type", "application/json");
-            xhr.send(JSON.stringify(maps));
-            console.log(xhr.getAllResponseHeaders());
-            if (xhr.status === 200) {
-                console.log(xhr.responseText);
-                if (xhr.responseText=="Present")
+        Api.Post(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ADD_MASTER_API_URL,maps).then(response =>{
+            if (response.status === 200) {
+                if (response.data==="Present")
                 {
-                    var tenure = prompt("Order ID Already Exists \n Wish to change order ID ");
+                    var tenure = prompt(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_PROMPT_MSG_ON_DUPLICATE_ORDERID);
                     console.log(tenure);
                     if (tenure != null) {
-                        sessionStorage.setItem("orderID",tenure);
+                        sessionStorage.setItem(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_STORAGE_ORDERID_KEY,tenure);
                         this.PostMapOnChange();
                     }
 
                 }
                 else {
 
-                    alert("Added Master Successfully!!!");
+                    alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_POST_SUCCESSFUL);
                 }
 
-            } else if (xhr.status === 404) {
-                alert("Not Found");
-            } else if (xhr.status === 500) {
-                alert("Internal Error");
+            } else if (response.status === 404) {
+                alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ERROR_404);
+            } else if (response.status === 500) {
+                alert(MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_ERROR_500);
             }
+        })
 
         }
     }
@@ -116,7 +103,7 @@ class MasterJsonBody extends React.Component {
                 <div>
                     <h2>Add Master Json Data</h2>
                     <textarea id={"MappingInput"} name={"masterJson"} onChange={this.ChangeHandler}required></textarea><br/>
-                    <label><button type={"submit"} className={"btn btn-primary"} id={"postBtn"} onClick={this.PostMapping}>POST</button></label>
+                    <label><button type={"submit"} className={"btn btn-primary"} id={"postBtn"} onClick={this.PostMapping}>{MASTER_JSON_MESSAGES.MASTER_JSON_PAGE_POST_BUTTON}</button></label>
                 </div>
             </div>
         );
