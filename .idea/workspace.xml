@@ -227,9 +227,7 @@
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f994e8368d7f4a76660f07b00cf671304507c108" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consts/masterjsonbody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consts/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/readData/components/NavigationBarDataPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/readData.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -437,25 +435,28 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52b3afbedce478e42bec4c4a46f0c02a70fa8387" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/573d8890b4ee8c3a711b40d1780a08da5ad8a45c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5af4b29d3a5c15ffc298dc46f8d4714ea670e475" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/875e65f88f46b1bf591128c69068ec994eab7d66" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab92bb151179b0cd5e62f9ee575e015bf1d1de45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad198306f9e4b69644d74cdc8e7ec34408b88a28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9334a72d5a6d4e902aec525a8a0a14945b15fb2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbbdd259a63c246e936c6ea7d2be5c47f0a9da60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0dfe9e93618d79b42b5dd47f7252aeb03fa48c78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4322270065458fc0cd13d1b079dc51c249c2c053" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f673037bae37b18a551d612b26e98ddd2fb3847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f989fdddf0f8a47cf7fac7a82164d963c77e849" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60dbc030dac512402a678bfa2140fe7e95a69b67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bd8ad038d23b7d0baa513eb6e0c4e3f07ecffbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d5efca916185558f2aa85cf416ffad062d7b47d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7927ee4e953fef53c649d0f481ea2b0de7d816ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7cc20482fde699438df04c8640a8468e68be2fc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e8b0190eb95666af61c1a9eaae2a99463fd23b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897b33c97725f00281eb89da1902d7d13bd49470" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/920ab6ab4a57ee20a36df4e3e2e73b70f9969d14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af8daded20590c2a3eddc998bbbc470a5bec919d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1833813b5d1474c4f2c77c9a5352153364c2c8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cedf9cd7a4d799864403e9b50cb8f1814e7c1f1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d013679f5f420b053219225c0039ea5f4079d60f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/MasterJsonBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/MasterJsonBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/NavigationBarDataPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AddToMasterJson/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Mappings/components/AddUpdateApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/components/AddUpdateApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Mappings/components/DeleteReadApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/components/DeleteReadApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Mappings/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/components/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/readData/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/readData/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/readData/components/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/readData/components/DataPageInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -559,13 +560,15 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -617,7 +620,8 @@
       <workItem from="1626419940653" duration="828000" />
       <workItem from="1626430446041" duration="12584000" />
       <workItem from="1626449448784" duration="224000" />
-      <workItem from="1626454068607" duration="5888000" />
+      <workItem from="1626454068607" duration="5974000" />
+      <workItem from="1626533898775" duration="2091000" />
     </task>
     <servers />
   </component>
