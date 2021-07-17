@@ -227,7 +227,9 @@
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f994e8368d7f4a76660f07b00cf671304507c108" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consts/readData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -435,28 +437,13 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0dfe9e93618d79b42b5dd47f7252aeb03fa48c78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4322270065458fc0cd13d1b079dc51c249c2c053" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f673037bae37b18a551d612b26e98ddd2fb3847" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f989fdddf0f8a47cf7fac7a82164d963c77e849" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60dbc030dac512402a678bfa2140fe7e95a69b67" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bd8ad038d23b7d0baa513eb6e0c4e3f07ecffbb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d5efca916185558f2aa85cf416ffad062d7b47d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7927ee4e953fef53c649d0f481ea2b0de7d816ea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7cc20482fde699438df04c8640a8468e68be2fc9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e8b0190eb95666af61c1a9eaae2a99463fd23b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897b33c97725f00281eb89da1902d7d13bd49470" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/920ab6ab4a57ee20a36df4e3e2e73b70f9969d14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af8daded20590c2a3eddc998bbbc470a5bec919d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1833813b5d1474c4f2c77c9a5352153364c2c8a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cedf9cd7a4d799864403e9b50cb8f1814e7c1f1a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d013679f5f420b053219225c0039ea5f4079d60f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/readData/components/DataPageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/readData/components/DataPageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/signup.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -506,8 +493,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -552,11 +539,11 @@
       <recent name="$PROJECT_DIR$/src/pages/readData/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/pages/readData/components" />
       <recent name="$PROJECT_DIR$/src/pages/Mappings/css" />
       <recent name="$PROJECT_DIR$/src/pages/AddToMasterJson/css" />
       <recent name="$PROJECT_DIR$/src/pages/AddToMasterJson/components" />
-      <recent name="$PROJECT_DIR$/src/pages/Mappings/components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -621,7 +608,7 @@
       <workItem from="1626430446041" duration="12584000" />
       <workItem from="1626449448784" duration="224000" />
       <workItem from="1626454068607" duration="5974000" />
-      <workItem from="1626533898775" duration="2091000" />
+      <workItem from="1626533898775" duration="4989000" />
     </task>
     <servers />
   </component>
