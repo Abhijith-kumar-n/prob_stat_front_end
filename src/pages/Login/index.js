@@ -14,6 +14,7 @@ export default class Login extends React.Component{
     }
     login = (e) => {
         e.preventDefault();
+        console.log(LOGIN_MESSAGES.LOGIN_PAGE_API_URL);
         Api.Post(LOGIN_MESSAGES.LOGIN_PAGE_API_URL,this.state).then(res => {
             if (res.status===200) {
                 if (res.data.authenticated) {

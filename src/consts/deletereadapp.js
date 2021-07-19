@@ -1,3 +1,4 @@
+import {HOST} from "./host";
 export const DELETE_READ_MESSAGES={
     DELETE_READ_PAGE_TITLE:"DELETE / READ MAPPING",
     DELETE_READ_PAGE_CHOOSE:"Choose Delete / Read",
@@ -5,8 +6,8 @@ export const DELETE_READ_MESSAGES={
     DELETE_READ_PAGE_READ_OPTION:"Read",
     DELETE_READ_PAGE_SUBMIT_BUTTON:"GET",
     DELETE_READ_PAGE_SUBMIT_CHANGE_BUTTON:"DELETE",
-    DELETE_READ_PAGE_DELETE_API_URL:"http://localhost:9095/userMappings/DeleteUserMappings/",
-    DELETE_READ_PAGE_READ_API_URL:"http://localhost:9095/userMappings/GetUserMapping/",
+    DELETE_READ_PAGE_DELETE_API_URL:"http://"+HOST.URL+":"+HOST.PORT+"/userMappings/DeleteUserMappings/",
+    DELETE_READ_PAGE_READ_API_URL:"http://"+HOST.URL+":"+HOST.PORT+"/userMappings/GetUserMapping/",
     DELETE_READ_PAGE_USER_NOT_LOGGED_IN_MSG:"Please Login",
     DELETE_READ_PAGE_READ_DATA_INIT:" "
 }

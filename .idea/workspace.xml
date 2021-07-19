@@ -227,9 +227,7 @@
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/a/4/a40dc9b45198b97d44922fbd12c80ff44a19db73" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../frontEndJsonMApper/frontendjsoncustommapper/.idea/sonarlint/issuestore/f/9/f994e8368d7f4a76660f07b00cf671304507c108" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Login/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/host.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jsoncustommapperfrontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -437,13 +435,20 @@
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/java/io/javabrains/springsecurityjpa/models/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../spring-security-jpa-master/src/test/java/io/javabrains/springsecurityjpa/SpringSecurityJpaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login.component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/signup.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/addupdateapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/addupdateapp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/deletereadapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/deletereadapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/consts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/masterjsonbody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/masterjsonbody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/readData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/readData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/signUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddToMasterJson/components/NavigationBarDataPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Mappings/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Mappings/components/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/readData/components/NavigationBarDataPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/readData/components/NavigationBarDataPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../getMappedData.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../html1file.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
@@ -493,8 +498,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -547,15 +552,13 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -608,7 +611,8 @@
       <workItem from="1626430446041" duration="12584000" />
       <workItem from="1626449448784" duration="224000" />
       <workItem from="1626454068607" duration="5974000" />
-      <workItem from="1626533898775" duration="4989000" />
+      <workItem from="1626533898775" duration="5257000" />
+      <workItem from="1626669274331" duration="2885000" />
     </task>
     <servers />
   </component>

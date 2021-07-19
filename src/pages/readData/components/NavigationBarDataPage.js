@@ -6,9 +6,8 @@ import {NAVIGATION_MESSAGES} from "../../../consts/navigation";
 
 class NavigationBarDataPage extends React.Component {
     logoutHandle=e=>{
-        sessionStorage.setItem("userId",null);
         sessionStorage.clear();
-        alert("Log Out Successful");
+        alert(NAVIGATION_MESSAGES.NAVIGATION_BAR_LOGOUT_MESSAGE);
     }
     render() {
         return (
@@ -26,7 +25,7 @@ class NavigationBarDataPage extends React.Component {
                         </Link>
 
                         <Link to="/">
-                            <button className="btn btn-info " type="submit" onClick={this.LogoutHandle}>
+                            <button className="btn btn-info " type="submit" onClick={this.logoutHandle}>
                                 {NAVIGATION_MESSAGES.NAVIGATION_BAR_LOGOUT}
                             </button></Link>
                     </div>

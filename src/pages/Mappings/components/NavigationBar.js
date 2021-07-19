@@ -6,9 +6,8 @@ import {NAVIGATION_MESSAGES} from "../../../consts/navigation";
 
 class NavigationBar extends React.Component {
     logoutHandle=e=>{
-        sessionStorage.setItem("userId",null);
         sessionStorage.clear();
-        alert("Log Out Successful");
+        alert(NAVIGATION_MESSAGES.NAVIGATION_BAR_LOGOUT_MESSAGE);
     }
     render() {
         return (
